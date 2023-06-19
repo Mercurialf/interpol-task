@@ -1,0 +1,24 @@
+
+body {
+    background-color: #c7f5ff;
+}
+
+.rotate-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 65vh;
+}
+
+.rotate-image {
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
